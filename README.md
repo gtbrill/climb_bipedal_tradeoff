@@ -4,7 +4,7 @@ This repository contains data and scripts used in the following paper:
 
 PLACEHOLDER FOR PAPER REFERENCE
 
-This repository is organised into three main folders by file type: CSV, R Code, and PNG Figures. Many of these are produced by the code, while others represent original input data. The full pipeline also produces six RDS files for use in later steps - these are not included since they exceed the GitHub filesize limit. 
+This repository is organised into three main folders by file type: CSV, R Code, and PNG Figures. Many of these are produced by the code, while others represent original input data. The full pipeline also produces six RDS files for use in later steps - these are not included since they exceed the GitHub filesize limit, but can be downloaded here: https://zenodo.org/records/20313479
 
 See below for a pipeline overview diagram and component table. Note that some figure plot codes produce plots within an R plot window rather than as PNG output files.
 
