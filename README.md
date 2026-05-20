@@ -8,7 +8,7 @@ This repository is organised into four main folders by file type: CSV, RDS, R Co
 
 All codes are very quick to run, except for the two model fitting loops that each took in the region of a couple of hours.
 
-![Alt text](Pipeline Overview.png)
+![Alt text](pipeline_overview.png)
 
 | ID | File Type / Folder | File Name                    | Model Relevance | Description/Function                                                                                         | Input Files (ID)         | Output Files (ID)             |
 |----|--------------------|------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------|--------------------------|-------------------------------|
