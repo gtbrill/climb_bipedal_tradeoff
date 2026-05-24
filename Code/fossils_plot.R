@@ -67,7 +67,7 @@ label_nudges <- tribble(
   "H. habilis",                 0,       -280,
   "Australopithecus",          -33,      -300,
   "Paranthropus",               -24,       -100,
-  "A. ramidus",                 5,       -130,
+  "Ar. ramidus",                 5,       -130,
   "H. floresiensis",             2,       -50,
   "H. antecessor",               13,       230
 )
