@@ -108,7 +108,7 @@ late_pleist_label <- data.frame(
 # ── Legend labels: LP H. sapiens with only H. sapiens italic ─
 legend_labels <- c(
   "Late Pleistocene H. sapiens" = expression("LP " * italic("H. sapiens")),
-  "Homo"                        = "Homo",
+  "Homo"                        = expression(italic("Homo")),
   "Australopithecus"            = expression(italic("Australopithecus")),
   "Paranthropus"                = expression(italic("Paranthropus")),
   "Ardipithecus"                = expression(italic("Ardipithecus")),
