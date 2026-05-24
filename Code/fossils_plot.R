@@ -10,7 +10,7 @@ shape_map <- c("F" = 16, "M" = 17, "Unknown" = 15)
 subcat_colours <- c(
   "Late Pleist H. sapiens" = "grey50",
   "Homo"                   = "#6baed6",
-  "Australopithicus"       = "#41ab5d",
+  "Australopithecus"       = "#41ab5d",
   "Paranthropus"           = "#8c510a",
   "Ardipithecus"           = "#FFD700"    # yellow
 )
@@ -31,7 +31,7 @@ other_pts <- fossil %>%
   filter(Category != "Study Sample", Species != "Undefined",
          Subcategory != "Late Pleist H. sapiens",
          !is.na(Mass), !is.na(Stature)) %>%
-  mutate(HullGroup = ifelse(Subcategory %in% c("Australopithicus", "Paranthropus"),
+  mutate(HullGroup = ifelse(Subcategory %in% c("Australopithecus", "Paranthropus"),
                             Subcategory, Species))
 
 # ── Convex hulls ─────────────────────────────────────────────
@@ -65,7 +65,7 @@ label_nudges <- tribble(
   "H. neanderthalensis",       5,      -250,
   "H. erectus",                 -29,       -30,
   "H. habilis",                 0,       -280,
-  "Australopithicus",          -33,      -300,
+  "Australopithecus",          -33,      -300,
   "Paranthropus",               -24,       -100,
   "A. ramidus",                 5,       -130,
   "H. floresiensis",             2,       -50,
