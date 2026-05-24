@@ -100,7 +100,7 @@ late_pleist_hull <- if (nrow(late_pleist_pts) >= 3) {
 
 # "Late Pleistocene" plain, "H. sapiens" italic
 late_pleist_label <- data.frame(
-  x     = mean(late_pleist_pts$Mass) - 22,
+  x     = mean(late_pleist_pts$Mass) - 28,
   y     = max(late_pleist_pts$Stature) - 20,
   label = "\"Late Pleistocene\"~italic('H. sapiens')"
 )
